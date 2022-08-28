@@ -20,14 +20,12 @@ pipenv run python build_course.py -h
 - `course_var.json`: course variables that have no API; update required for each course; question bank and rubric;   
 - `course_content.json`: contains title and url of content  
 
----
-
 ## Build a course from scratch
 ### Create course page
-1. Go to the Question Bank Collection course on Canvas and follow the instructions to update the IDs of questions banks and rubrics in `course_var.json`
+1. Go to the [Question Bank Collection course](https://canvas.wayne.edu/courses/74658) on Canvas and follow the instructions to update the IDs of questions banks and rubrics in `course_var.json`
 2. Update course details in `course_config.json` (coursenum and date)
 3. Run [`build_course.py`](#getting-started)
-4. Replace Assignment 3, Mock Exam and Final Exam with the imported templates from the Question Bank Collection course
+4. Replace Assignment 3, Mock Exam and Final Exam with the imported templates from the [Question Bank Collection course](https://canvas.wayne.edu/courses/74658)
 5. Enable “Assignment Groups Weight”
 
 ### Update course schedule
