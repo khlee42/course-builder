@@ -1,41 +1,42 @@
-# Canvas course builder
-A semi-automated Canvas course builder. 
+# Canvas Course Builder
+A semi-automated course builder for Canvas which creates course content and schedule as provided in the configuration files (`.json`). Some features need manual control as they have no public-facing APIs (e.g., question banks).
 
-## Getting started
+## Prerequisites
+* The config files only contain links to the contents, which are published in [the content-builder repo](https://github.com/khlee42/database).  
+* Install dependencies
 ```
-# Install all dependencies
 pipenv install --three
+```
 
+## Configuration files
+`./etc`: Canvas API_URL and API_KEY  
+`./data` contains following configuration files for building a course:  
+- `course_config.json`: course setup configurations; e.g., date, module structure, grading scheme, etc.  
+- `course_var.json`: course variables for features with no APIs; update required for each course   
+- `course_content.json`: title and url of content  
+
+## Usage
+### Create course page
+1. Go to the [Question Bank Collection course on Canvas](https://canvas.wayne.edu/courses/74658) and follow the instructions to update the IDs of questions banks and rubrics in `course_var.json`
+2. Update course details in `course_config.json` (coursenum and date)
+3. Run `build_course.py`
+```
 # Build a course using config files from db-testing 
 pipenv run python build_course.py -c ./data/db-testing -d -m
 
 # Help
 pipenv run python build_course.py -h
 ```
-
-## Configuration files
-`./etc`: Canvas API_URL and API_KEY
-`./data` contains following configuration files for building a course:  
-- `course_config.json`: contains course setup configurations; e.g., date, module structure, grading scheme, etc.  
-- `course_var.json`: course variables that have no API; update required for each course; question bank and rubric;   
-- `course_content.json`: contains title and url of content  
-
-## Build a course from scratch
-### Create course page
-1. Go to the [Question Bank Collection course](https://canvas.wayne.edu/courses/74658) on Canvas and follow the instructions to update the IDs of questions banks and rubrics in `course_var.json`
-2. Update course details in `course_config.json` (coursenum and date)
-3. Run [`build_course.py`](#getting-started)
 4. Replace Assignment 3, Mock Exam and Final Exam with the imported templates from the [Question Bank Collection course](https://canvas.wayne.edu/courses/74658)
-5. Enable “Assignment Groups Weight”
+5. Enable “Assignment Groups Weight” in the Assignments tab
 
 ### Update course schedule
 1. Move schedule file (e.g., `./var/schedule-<>.csv`) to the content-builder folder (`../database`)
 2. Knit policies file (e.g., `policies-<>.rmd`)
 3. Commit and push
 
-### Publish course page
+### Before publish course page
 1. Set availability for midterm and final exams
-2. Lockdown browser settings
-3. Correct due dates if necessary (e.g., Holiday)
+2. Check lockdown browser settings
+3. Adjust due dates if necessary (e.g., Holiday)
 4. Publish
-5. Welcome announcement
