@@ -1,0 +1,11 @@
+# Python byproduct
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# MAC byproduct
+.DS_Store
+
+etc/
+var/

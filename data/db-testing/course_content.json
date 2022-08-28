@@ -1,0 +1,306 @@
+{
+    "Page": {
+        "p00": {
+            "title": "Course Introduction",
+            "body": "https://khlee42.github.io/database/intro.html"
+        },
+        "p01": {
+            "title": "Lecture 1 - Introduction to Database",
+            "body": "https://khlee42.github.io/database/lecture/m01-intro_to_db/m01-intro_to_db.html"
+        },
+        "p02": {
+            "title": "Lecture 2 - Entity-Relatioship Diagram 1",
+            "body": "https://khlee42.github.io/database/lecture/m02-erd1/m02-erd1.html"
+        },
+        "p03": {
+            "title": "Lecture 3 - Entity-Relatioship Diagram 2",
+            "body": "https://khlee42.github.io/database/lecture/m03-erd2/m03-erd2.html"
+        },
+        "p04": {
+            "title": "Lecture 4 - Enhanced ERD",
+            "body": "https://khlee42.github.io/database/lecture/m04-eerd/m04-eerd.html"
+        },
+        "p05": {
+            "title": "Lecture 5 - Relational model",
+            "body": "https://khlee42.github.io/database/lecture/m05-relational_model/m05-relational_model.html"
+        },
+        "p06": {
+            "title": "Lecture 6 - Normalization",
+            "body": "https://khlee42.github.io/database/lecture/m06-normalization/m06-normalization.html"
+        },
+        "p07": {
+            "title": "Lecture 7 - Introduction to SQL",
+            "body": "https://khlee42.github.io/database/lecture/m07-intro_to_sql/m07-intro_to_sql.html"
+        },
+        "p08": {
+            "title": "Lecture 8 - Filtering output",
+            "body": "https://khlee42.github.io/database/lecture/m08-where/m08-where.html"
+        },
+        "p09": {
+            "title": "Lecture 9 - Data definition and manipulation language (DDL&DML)",
+            "body": "https://khlee42.github.io/database/lecture/m09-ddl_dml/m09-ddl_dml.html"
+        },
+        "p10": {
+            "title": "Lecture 10 - Joining multiple tables",
+            "body": "https://khlee42.github.io/database/lecture/m10-join1/m10-join1.html"
+        },
+        "p11": {
+            "title": "Lecture 12 - Group data",
+            "body": "https://khlee42.github.io/database/lecture/m12-groupby/m12-groupby.html"
+        },
+        "p12": {
+            "title": "Lecture 13 - Subquery",
+            "body": "https://khlee42.github.io/database/lecture/m13-subquery/m13-subquery.html"
+        },
+        "p13": {
+            "title": "SDW tutorial 1",
+            "body": "https://khlee42.github.io/database/sdw/sdw_tutorial_1.html"
+        },
+        "p14": {
+            "title": "SDW tutorial 2",
+            "body": "https://khlee42.github.io/database/sdw/sdw_tutorial_2.html"
+        },
+        "p15": {
+            "title": "SDW tutorial 3",
+            "body": "https://khlee42.github.io/database/sdw/sdw_tutorial_3.html"
+        },
+        "p16": {
+            "title": "SDW tutorial 4",
+            "body": "https://khlee42.github.io/database/sdw/sdw_tutorial_4.html"
+        },
+        "p17": {
+            "title": "Assignment 1 - Answer Key",
+            "body": "https://khlee42.github.io/database/homework/asgmt1-answer.html"
+        },
+        "p18": {
+            "title": "Lockdown Browser Setup - Midterm",
+            "body": "https://khlee42.github.io/database/misc/lockdown_browser.html"
+        },
+        "p19": {
+            "title": "[Extra credit] DataCamp Exercise",
+            "body": "https://khlee42.github.io/database/misc/dc_exercise_5992.html"
+        },
+        "p20": {
+            "title": "Lockdown Browser Setup - Final",
+            "body": "https://khlee42.github.io/database/misc/lockdown_browser.html"
+        }
+    },
+    "Assignment": {
+        "a01": {
+            "name": "Assignment 1",
+            "description": "https://khlee42.github.io/database/homework/asgmt1-instruction.html",
+            "allowed_extensions": ["pdf"]
+        },
+        "a02": {
+            "name": "Assignment 2",
+            "description": "https://khlee42.github.io/database/homework/asgmt2-instruction.html",
+            "allowed_extensions": ["sql"]
+        },
+        "a03": {
+            "name": "[Extra credit] DataCamp Exercise",
+            "description": "https://khlee42.github.io/database/misc/dc_exercise_5992.html"
+        }
+    },
+    "Quiz": {
+        "q01": {
+            "title": "Quiz 1",
+            "description": "https://khlee42.github.io/database/quiz/quiz-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 15,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz 1"     
+                }
+            ]
+        },
+        "q02": {
+            "title": "Quiz 2",
+            "description": "https://khlee42.github.io/database/quiz/quiz-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 15,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz 2"     
+                }
+            ]
+        },
+        "q03": {
+            "title": "Quiz 3",
+            "description": "https://khlee42.github.io/database/quiz/quiz-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 15,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz 3"     
+                }
+            ]
+        },
+        "q04": {
+            "title": "Quiz 4",
+            "description": "https://khlee42.github.io/database/quiz/quiz-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 15,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz 4"     
+                }
+            ]
+        },
+        "q05": {
+            "title": "Quiz 5",
+            "description": "https://khlee42.github.io/database/quiz/quiz-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 15,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz 5"     
+                }
+            ]
+        },
+        "q06": {
+            "title": "Quiz 6",
+            "description": "https://khlee42.github.io/database/quiz/quiz-sql-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 5,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz - SQL - WHERE"     
+                }
+            ]
+        },
+        "q07": {
+            "title": "Quiz 7",
+            "description": "https://khlee42.github.io/database/quiz/quiz-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 15,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz 6"     
+                }
+            ]
+        },
+        "q08": {
+            "title": "Quiz 8",
+            "description": "https://khlee42.github.io/database/quiz/quiz-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 15,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz 7"     
+                }
+            ]
+        },
+        "q09": {
+            "title": "Quiz 9",
+            "description": "https://khlee42.github.io/database/quiz/quiz-sql-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 5,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz - SQL - JOIN"     
+                }
+            ]
+        },
+        "q10": {
+            "title": "Quiz 10",
+            "description": "https://khlee42.github.io/database/quiz/quiz-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 15,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz 8"     
+                }
+            ]
+        },
+        "q11": {
+            "title": "Quiz 11",
+            "description": "https://khlee42.github.io/database/quiz/quiz-sql-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 5,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz - SQL - GROUP"     
+                }
+            ]
+        },
+        "q12": {
+            "title": "Quiz 12",
+            "description": "https://khlee42.github.io/database/quiz/quiz-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 15,
+                    "question_points": 1,
+                    "assessment_question_bank_id": "Quiz 9"     
+                }
+            ]
+        },
+        "q13": {
+            "title": "Assignment 3 (UPDATE MANUALLY)",
+            "description": "https://khlee42.github.io/database/homework/asgmt3-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 11,
+                    "assessment_question_bank_id": "Assignment 3"     
+                }
+            ]
+        },
+        "q14": {
+            "title": "Midterm exam",
+            "description": "https://khlee42.github.io/database/exam/midterm-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 6,
+                    "question_points": 4,
+                    "assessment_question_bank_id": "Quiz 1"     
+                },
+                {
+                    "pick_count": 6,
+                    "question_points": 4,
+                    "assessment_question_bank_id": "Quiz 2"     
+                },
+                {
+                    "pick_count": 7,
+                    "question_points": 4,
+                    "assessment_question_bank_id": "Quiz 3"     
+                },
+                {
+                    "pick_count": 6,
+                    "question_points": 4,
+                    "assessment_question_bank_id": "Quiz 4"     
+                }
+            ]
+        },
+        "q15": {
+            "title": "Mock exam for final (UPDATE MANUALLY)",
+            "description": "https://khlee42.github.io/database/exam/final-mock-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 14,
+                    "assessment_question_bank_id": "Mock exam - CITYJAIL"     
+                }
+            ]
+        },
+        "q16": {
+            "title": "Final exam (UPDATE MANUALLY)",
+            "description": "https://khlee42.github.io/database/exam/final-instruction.html",
+            "question_group": [
+                {
+                    "pick_count": 22,
+                    "question_points": 2,
+                    "assessment_question_bank_id": "FINAL (MCQ - 44 points)"     
+                },
+                {
+                    "pick_count": 9,
+                    "assessment_question_bank_id": "FINAL (SQL - 56 points)",
+                    "position": 1
+                }
+            ]
+        }
+    },
+    "Discussion": {
+        "d01": {
+            "title": "Q&A",
+            "message": "If you have any questions about the course, assignments, exams, etc., leave a comment below."
+        }
+    }
+}

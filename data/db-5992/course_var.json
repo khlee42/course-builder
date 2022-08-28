@@ -1,0 +1,23 @@
+{
+    "question_bank": {
+        "Quiz 1": 456363,
+        "Quiz 2": 456364,
+        "Quiz 3": 456359,
+        "Quiz 4": 456357,
+        "Quiz 5": 456361,
+        "Quiz 6": 456358,
+        "Quiz 7": 456362,
+        "Quiz 8": 456370,
+        "Quiz 9": 456365,
+        "Quiz - SQL - GROUP": 456360,
+        "Quiz - SQL - JOIN": 456368,
+        "Quiz - SQL - WHERE": 456356,
+        "Assignment 3": 456366,
+        "Mock exam - CITYJAIL": 456369,
+        "FINAL (MCQ - 44 points)": 456367,
+        "FINAL (SQL - 56 points)": 456355
+    },
+    "rubric": {
+        "a01": 53507
+    }
+}

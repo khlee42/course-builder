@@ -1,0 +1,279 @@
+{
+    "coursenum": 175341,
+    "coursetitle": "Fall 2022 Database Systems",
+    "syllabus": "https://khlee42.github.io/database/policies-5992.html",
+    "image_url": "https://khlee42.github.io/database/img/database_course_image.png",
+    "grading_scheme": "grading_standards_grad",
+    "date": {
+        "start_day": "2022-08-31",
+        "off_day": "2022-11-23",
+        "format": 15
+    },
+    "assignment_groups_6week": {
+        "quiz": {"name": "Quiz", "group_weight": 36},
+        "final": {"name": "Final exam", "group_weight": 30},
+        "participation": {"name": "Participation", "group_weight": 4},
+        "asgmt": {"name": "Assignment", "group_weight": 30}
+    },
+    "assignment_groups_11week": {
+        "quiz": {"name": "Quiz", "group_weight": 36},
+        "midterm": {"name": "Midterm exam", "group_weight": 10},
+        "final": {"name": "Final exam", "group_weight": 20},
+        "participation": {"name": "Participation", "group_weight": 4},
+        "asgmt": {"name": "Assignment", "group_weight": 30},
+        "datacamp": {"name": "Extra credit", "group_weight": 5}
+    },
+    "grading_standards_undergrad": [
+        {"name": "A", "value": 93},
+        {"name": "A-", "value": 90},
+        {"name": "B+", "value": 87},
+        {"name": "B", "value": 83},
+        {"name": "B-", "value": 80},
+        {"name": "C+", "value": 77},
+        {"name": "C", "value": 73},
+        {"name": "D", "value": 65},
+        {"name": "F", "value": 0}
+    ],
+    "grading_standards_grad": [
+        {"name": "A", "value": 93},
+        {"name": "A-", "value": 90},
+        {"name": "B+", "value": 87},
+        {"name": "B", "value": 83},
+        {"name": "B-", "value": 80},
+        {"name": "C+", "value": 77},
+        {"name": "C", "value": 73},
+        {"name": "F", "value": 0}
+    ],
+    "modules_6week": {
+        "1": {
+            "module": {"name": "Week 1"},
+            "items": ["p01", "p02", "p03", "q01", "q02"]
+        },
+        "2": {
+            "module": {"name": "Week 2"},
+            "items": ["p04", "p05", "p06", "q03", "q04", "a01"]
+        },
+        "3": {
+            "module": {"name": "Week 3"},
+            "items": ["p07", "p08", "p17", "q05", "q06", "p13", "p14", "p15"]
+        },
+        "4": {
+            "module": {"name": "Week 4"},
+            "items": ["p09", "q07", "a02", "p16"]
+        },
+        "5": {
+            "module": {"name": "Week 5"},
+            "items": ["p10", "p11", "q08", "q09", "q10"]
+        },
+        "6": {
+            "module": {"name": "Week 6"},
+            "items": ["p12", "q11", "q12", "q13", "p18", "q15"]
+        },
+        "7": {
+            "module": {"name": "Final Exam"},
+            "items": ["q16"]
+        }
+    },
+    "modules_11week": {
+        "1": {
+            "module": {"name": "Week 1"},
+            "items": ["p00", "p01", "p02", "p03", "q01", "q02"]
+        },
+        "2": {
+            "module": {"name": "Week 2"},
+            "items": ["p04", "q03", "a01"]
+        },
+        "3": {
+            "module": {"name": "Week 3"},
+            "items": ["p05", "p06", "q04"]
+        },
+        "4": {
+            "module": {"name": "Week 4 - Midterm Exam"},
+            "items": ["q14"]
+        },
+        "5": {
+            "module": {"name": "Week 5"},
+            "items": ["p07", "q05", "p13", "p14", "p15"]
+        },
+        "6": {
+            "module": {"name": "Week 6"},
+            "items": ["p08", "q06"]
+        },
+        "7": {
+            "module": {"name": "Week 7"},
+            "items": ["p09", "q07", "a02", "p16"]
+        },
+        "8": {
+            "module": {"name": "Week 8"},
+            "items": ["p10", "q08", "q09"]
+        },
+        "9": {
+            "module": {"name": "Week 9"},
+            "items": ["p11", "q10", "p19"]
+        },
+        "10": {
+            "module": {"name": "Week 10"},
+            "items": ["p12", "q11", "q12", "q13", "p18", "q15"]
+        },
+        "11": {
+            "module": {"name": "Week 11 - Final Exam"},
+            "items": ["q16"]
+        }
+    },
+    "modules_15week": {
+        "1": {
+            "module": {"name": "Week 1"},
+            "items": ["p00", "p01", "q01"]
+        },
+        "2": {
+            "module": {"name": "Week 2"},
+            "items": ["p02", "q02"]
+        },
+        "3": {
+            "module": {"name": "Week 3"},
+            "items": ["p03", "a01"]
+        },
+        "4": {
+            "module": {"name": "Week 4"},
+            "items": ["p04", "q03"]
+        },
+        "5": {
+            "module": {"name": "Week 5"},
+            "items": ["p05", "p06", "q04"]
+        },
+        "6": {
+            "module": {"name": "Week 6 - Midterm Exam"},
+            "items": ["p18", "q14"]
+        },
+        "7": {
+            "module": {"name": "Week 7"},
+            "items": ["p07", "q05", "p13", "p14", "p15"]
+        },
+        "8": {
+            "module": {"name": "Week 8"},
+            "items": ["p08", "q06"]
+        },
+        "9": {
+            "module": {"name": "Week 9"},
+            "items": ["p09", "q07", "a02", "p16"]
+        },
+        "10": {
+            "module": {"name": "Week 10"},
+            "items": ["p10", "q08", "q09"]
+        },
+        "11": {
+            "module": {"name": "Week 11"},
+            "items": ["p11", "q10", "q11"]
+        },
+        "12": {
+            "module": {"name": "Week 12"},
+            "items": ["p12", "q12", "q13"]
+        },
+        "13": {
+            "module": {"name": "Week 13"},
+            "items": ["a03"]
+        },
+        "14": {
+            "module": {"name": "Week 14"},
+            "items": ["p20", "q15"]
+        },
+        "15": {
+            "module": {"name": "Week 15 - Final Exam"},
+            "items": ["q16"]
+        }
+    },
+    "setting": [
+        {
+            "target": ["a03"],
+            "config": {
+                "due": 18,
+                "points_possible": 100,
+                "assignment_group_id": "datacamp"
+            }
+        },
+        {
+            "target": ["a01", "a02"],
+            "config": {
+                "due": 6,
+                "submission_types": ["online_upload"],
+                "points_possible": 100,
+                "assignment_group_id": "asgmt"
+            }
+        },
+        {
+            "target": ["q13"],
+            "config": {
+                "due": 6,
+                "quiz_type": "assignment",
+                "hide_results": "always",
+                "assignment_group_id": "asgmt"
+            }
+        },
+        {
+            "target": ["q01", "q02", "q03", "q04", "q05", "q07", "q08", "q10", "q12"],
+            "config": {
+                "quiz_type": "assignment",
+                "assignment_group_id": "quiz",
+                "time_limit": 40,
+                "shuffle_answers": true,
+                "allowed_attempts": 3,
+                "scoring_policy": "keep_highest",
+                "due": 6,
+                "show_correct_answers_last_attempt": true
+            }
+        },
+        {
+            "target": ["q06", "q09", "q11"],
+            "config": {
+                "quiz_type": "assignment",
+                "assignment_group_id": "quiz",
+                "time_limit": 60,
+                "due": 6
+            }
+        },
+        {
+            "target": ["q14"],
+            "config": {
+                "due": 4,
+                "assignment_group_id": "midterm",
+                "quiz_type": "assignment",
+                "time_limit": 90,
+                "shuffle_answers": true,
+                "hide_results": "always",
+                "require_lockdown_browser": true,
+                "require_lockdown_browser_for_results": true,
+                "require_lockdown_browser_monitor": false
+            }
+        },
+        {
+            "target": ["q15"],
+            "config": {
+                "quiz_type": "practice_quiz",
+                "allowed_attempts": -1,
+                "require_lockdown_browser": true,
+                "require_lockdown_browser_for_results": true,
+                "require_lockdown_browser_monitor": false
+            }
+        },
+        {
+            "target": ["q16"],
+            "config": {
+                "due": 4,
+                "assignment_group_id": "final",
+                "quiz_type": "assignment",
+                "time_limit": 120,
+                "allowed_attempts": 1,
+                "shuffle_answers": true,
+                "hide_results": "always",
+                "require_lockdown_browser": true,
+                "require_lockdown_browser_for_results": true,
+                "require_lockdown_browser_monitor": false
+            }
+        }
+    ],
+    "tabs": [
+        "announcements", "grades", "discussions", "people", "syllabus", "quizzes", "assignments", "modules",
+        "context_external_tool_2", "context_external_tool_56", "context_external_tool_66", 
+        "context_external_tool_132", "context_external_tool_583", "context_external_tool_4086"
+    ]
+}
