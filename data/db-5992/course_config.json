@@ -1,12 +1,12 @@
 {
-    "coursenum": 175341,
-    "coursetitle": "Fall 2022 Database Systems",
+    "coursenum": 178235,
+    "coursetitle": "Winter 2023 Database Systems",
     "syllabus": "https://khlee42.github.io/database/policies-5992.html",
     "image_url": "https://khlee42.github.io/database/img/database_course_image.png",
     "grading_scheme": "grading_standards_grad",
     "date": {
-        "start_day": "2022-08-31",
-        "off_day": "2022-11-23",
+        "start_day": "2023-01-11",
+        "off_day": "2023-03-15",
         "format": 15
     },
     "assignment_groups_6week": {
@@ -17,11 +17,10 @@
     },
     "assignment_groups_11week": {
         "quiz": {"name": "Quiz", "group_weight": 36},
-        "midterm": {"name": "Midterm exam", "group_weight": 10},
+        "midterm": {"name": "Midterm exam", "group_weight": 14},
         "final": {"name": "Final exam", "group_weight": 20},
-        "participation": {"name": "Participation", "group_weight": 4},
         "asgmt": {"name": "Assignment", "group_weight": 30},
-        "datacamp": {"name": "Extra credit", "group_weight": 5}
+        "datacamp": {"name": "Extra credit", "group_weight": 3}
     },
     "grading_standards_undergrad": [
         {"name": "A", "value": 93},
@@ -194,7 +193,7 @@
         {
             "target": ["a01", "a02"],
             "config": {
-                "due": 6,
+                "due": 13,
                 "submission_types": ["online_upload"],
                 "points_possible": 100,
                 "assignment_group_id": "asgmt"
@@ -203,7 +202,7 @@
         {
             "target": ["q13"],
             "config": {
-                "due": 6,
+                "due": 13,
                 "quiz_type": "assignment",
                 "hide_results": "always",
                 "assignment_group_id": "asgmt"
